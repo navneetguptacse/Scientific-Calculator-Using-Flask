@@ -1,8 +1,8 @@
-# Scientific Calculator
+# 📊 Scientific Calculator
 
 The Scientific Calculator is a web-based calculator application built using Flask. It provides a user-friendly interface for performing various mathematical calculations, including basic arithmetic operations and advanced scientific functions.
 
-## Features
+## 🎞 Features
 
 - Basic arithmetic operations: addition, subtraction, multiplication, division.
 - Advanced scientific functions: sine, cosine, tangent, square root, power, logarithm, exponential, and more.
@@ -11,14 +11,14 @@ The Scientific Calculator is a web-based calculator application built using Flas
 - Mathematical rounding and absolute value functions.
 - Responsive design for seamless usage across different devices.
 
-## Technologies Used
+## 💻 Technologies Used
 
 - Flask: a Python web framework used for building the backend server.
 - HTML: for creating the structure and layout of the calculator interface.
 - CSS: for styling the calculator and making it visually appealing.
 - JavaScript: for handling user interactions and performing calculations on the client-side.
 
-## Getting Started
+## 🚀 Getting Started
 
 To run the Scientific Calculator locally on your machine, follow these steps:
 
@@ -28,15 +28,15 @@ To run the Scientific Calculator locally on your machine, follow these steps:
 4. Start the Flask development server: `python app.py`
 5. Open your web browser and visit: `http://localhost:5000`
 
-## Contributing
+## 🥇 Contributing
 
 Contributions to the Scientific Calculator project are welcome! If you encounter any issues or have suggestions for improvements, feel free to submit a pull request or open an issue on the GitHub repository.
 
-## License
+## 📑 License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). You are free to modify and distribute the code as per the terms of the license.
+This project is licensed under the [iNeuron.ai](https://ineuron.ai/). You are free to modify and distribute the code as per the terms of the license.
 
-## Acknowledgements
+## 🔗 Acknowledgements
 
 - The Flask framework: [Flask](https://flask.palletsprojects.com/)
 - Open-source libraries used in this project: [jQuery](https://jquery.com/), [Math.js](https://mathjs.org/)
