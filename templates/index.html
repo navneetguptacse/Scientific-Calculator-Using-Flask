@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <title>Scientific Calculator</title>
+</head>
+
+<body>
+  <h1>Scientific Master Calculator</h1> <hr class="horizontal-line">
+  <div class="container">
+    <div class="calculator">
+      <input id="calculator-input" type="text">
+      <button onclick="clearInput()">C</button>
+      <button onclick="appendValue('/')">/</button>
+      <button onclick="appendValue('*')">*</button>
+      <button onclick="appendValue('7')">7</button>
+      <button onclick="appendValue('8')">8</button>
+      <button onclick="appendValue('9')">9</button>
+      <button onclick="appendValue('-')">-</button>
+      <button onclick="appendValue('4')">4</button>
+      <button onclick="appendValue('5')">5</button>
+      <button onclick="appendValue('6')">6</button>
+      <button onclick="appendValue('+')">+</button>
+      <button onclick="appendValue('1')">1</button>
+      <button onclick="appendValue('2')">2</button>
+      <button onclick="appendValue('3')">3</button>
+      <button onclick="calculateResult()">=</button>
+      <button onclick="appendValue('0')">0</button>
+      <button onclick="appendValue('.')">.</button>
+      <button onclick="appendValue('Math.sin(')">sin</button>
+      <button onclick="appendValue('Math.cos(')">cos</button>
+      <button onclick="appendValue('Math.tan(')">tan</button>
+      <button onclick="appendValue('Math.sqrt(')">sqrt</button>
+      <button onclick="appendValue('Math.pow(')">^</button>
+      <button onclick="appendValue('Math.log(')">log</button>
+      <button onclick="appendValue('Math.exp(')">exp</button>
+      <button onclick="appendValue('(')">(</button>
+      <button onclick="appendValue(')')">)</button>
+      <button onclick="appendValue('Math.PI')">π</button>
+      <button onclick="appendValue('Math.E')">e</button>
+      <button onclick="appendValue('Math.round(')">round</button>
+      <button onclick="appendValue('Math.floor(')">floor</button>
+      <button onclick="appendValue('Math.ceil(')">ceil</button>
+      <button onclick="appendValue('Math.abs(')">abs</button>
+    </div>    
+    <div class="result" id="result"></div>
+  </div>
+  <footer class="footer">
+    <p>&copy; 2023 The Centrabyte Inc. All rights reserved.</p>
+  </footer>
+  <script src="{{ url_for('static', filename='js/calculator.js') }}"></script>
+</body>
+
+</html>

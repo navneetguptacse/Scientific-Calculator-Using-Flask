@@ -1,0 +1,56 @@
+.calculator .scientific {
+  grid-column: span 2;
+}
+
+.calculator .scientific button {
+  background-color: #ff9800;
+}
+
+.calculator .scientific button:hover {
+  background-color: #e68a00;
+}
+
+.calculator .scientific button:active {
+  background-color: #d17a00;
+}
+
+.calculator .scientific button:nth-child(3),
+.calculator .scientific button:nth-child(4),
+.calculator .scientific button:nth-child(7),
+.calculator .scientific button:nth-child(8),
+.calculator .scientific button:nth-child(11),
+.calculator .scientific button:nth-child(12),
+.calculator .scientific button:nth-child(15),
+.calculator .scientific button:nth-child(16) {
+  background-color: #4caf50;
+}
+
+.calculator .scientific button:nth-child(3):hover,
+.calculator .scientific button:nth-child(4):hover,
+.calculator .scientific button:nth-child(7):hover,
+.calculator .scientific button:nth-child(8):hover,
+.calculator .scientific button:nth-child(11):hover,
+.calculator .scientific button:nth-child(12):hover,
+.calculator .scientific button:nth-child(15):hover,
+.calculator .scientific button:nth-child(16):hover {
+  background-color: #45a049;
+}
+
+.calculator .scientific button:nth-child(3):active,
+.calculator .scientific button:nth-child(4):active,
+.calculator .scientific button:nth-child(7):active,
+.calculator .scientific button:nth-child(8):active,
+.calculator .scientific button:nth-child(11):active,
+.calculator .scientific button:nth-child(12):active,
+.calculator .scientific button:nth-child(15):active,
+.calculator .scientific button:nth-child(16):active {
+  background-color: #3e8e41;
+}
+
+.calculator .scientific input {
+  font-size: 14px;
+}
+
+.calculator .scientific .result {
+  font-size: 20px;
+}
